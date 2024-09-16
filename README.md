@@ -12,5 +12,3 @@
         javac -d bin src/*.java
 ### Third: rodar e verificar a saida
         docker-compose run --rm runjava java -cp /app/bin "App"
-### Rodar passando parametros:
-        docker-compose run --rm runjava java -cp /app/bin "NomeDaClasse" par1 par2 par3 ... 
